@@ -34,3 +34,7 @@ main{
 .arrow {
     font-weight: bolder;
 }
+
+.arrow div {
+    display: inline-block;
+}
