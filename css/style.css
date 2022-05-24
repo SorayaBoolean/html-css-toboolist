@@ -6,6 +6,31 @@
 
 header{
     width: 200px;
+}
 
-    background-color: yellow;
+
+.logotext {
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+body {
+    background-color: rgb(195, 195, 223);
+}
+nav {
+    background-color: #ffff;
+}
+
+main{
+    background-color: #ffff;
+}
+
+.arrow :before {       *non so perchè non funziona
+    content: /25BC ;
+}
+
+.arrow {
+    font-weight: bolder;
 }
