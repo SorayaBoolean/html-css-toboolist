@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-.master {
-   
-}
 
 header{
     margin: 0;
@@ -19,14 +16,17 @@ header{
     color: #000000;
     font-size: 30px;
     text-align: center;
-    font-family: 'Righteous', cursive;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 body {
-    background-color: rgb(195, 195, 223);
+    background-color: rgb(165, 193, 247);
 }
 nav {
     background-color: #ffff;
+    height: 40px;
+    padding-top: 15px ;
+    padding-left: 40px;
 }
 
 .master {
@@ -50,6 +50,68 @@ nav {
     width: 80%;
     margin: auto;
     margin-top: 2px;
-    
-
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 40px;
 }
+
+ .description {
+     color: #ffff;
+     border-radius: 10px;
+     font-size: 8px;
+     padding-top: 5px;
+     padding-right: 5px;
+     padding-bottom: 5px;
+     padding-left: 5px;
+ }   
+
+ .blue {
+     background-color: rgb(69, 145, 245);
+     
+ }
+ 
+ .purple {
+     background-color: rgb(148, 66, 241);
+ }
+
+ .green{
+     background-color: green;
+ }
+
+ .orange {
+     background-color: orange;
+     padding-right: 10px;
+     padding-left: 10px;
+ }
+
+ .pink { *ho dovuto riscriverlo perche non leggeva la regola di description
+     background-color: rgb(235, 80, 175);
+     color: #ffff;
+     border-radius: 10px;
+     font-size: 8px;
+     padding-top: 5px;
+     padding-right: 10px;
+     padding-bottom: 5px;
+     padding-left: 10px;
+ }
+
+ .lightgreen {
+     background-color: rgb(123, 202, 71);
+     padding-right: 10px;
+     padding-left: 10px;
+ }
+
+ button {
+    background-color: rgb(69, 145, 245);
+    border-radius: 5px;
+    color: #ffff;
+    padding-top: 5px;
+     padding-right: 5px;
+     padding-bottom: 5px;
+     padding-left: 5px;
+     border: 0px;
+     font-size: 10px;
+
+ }
