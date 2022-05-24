@@ -4,10 +4,16 @@
     box-sizing: border-box;
 }
 
-header{
-    width: 200px;
+.master {
+   
 }
 
+header{
+    margin: 0;
+    width: auto;
+    height: 80px;
+    background-color: #ffff;
+}
 
 .logotext {
     color: #000000;
@@ -23,18 +29,27 @@ nav {
     background-color: #ffff;
 }
 
-main{
-    background-color: #ffff;
-}
-
-.arrow :before {       *non so perchè non funziona
-    content: /25BC ;
+.master {
+    margin-top: 40px;
 }
 
 .arrow {
     font-weight: bolder;
 }
 
-.arrow div {
-    display: inline-block;
+nav {
+    background-color: #ffff;
+    width: 80%;
+    margin: auto;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.items {
+    background-color: #ffff;
+    width: 80%;
+    margin: auto;
+    margin-top: 2px;
+    
+
 }
